@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left-container{
+    background-color: rgb(16, 16, 139);
+    height: 100vh;scrollbar-width: none;
+    overflow: auto;
+}
+.left-container li{
+    list-style: none;
+    margin-top: 20px;
+}
+.left-container a{
+    text-decoration: none;
+    color: white;
+}
+.main-body-container{
+    display: flex;
+}
+.nav-container li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+.my-card{
+    background-color: rgb(176, 225, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+.table-container{
+    background-color: rgb(255, 169, 255);
+    padding: 10px;
+}
+.table-in-cont{
+    background-color: white;
+    border-radius: 10px;
+}
+.right-container{
+    height: 100vh;
+    overflow: auto;
+}
